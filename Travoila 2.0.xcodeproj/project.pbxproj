@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B82764E228B69DDD008962AC /* Mate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82764E128B69DDD008962AC /* Mate.swift */; };
+		B864F93028B697A500FCA265 /* Scene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B864F92F28B697A500FCA265 /* Scene1.swift */; };
+		B864F93228B69C5E00FCA265 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B864F93128B69C5E00FCA265 /* Budget.swift */; };
+		C3B278E628B4892400B1D3A7 /* Personal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B278E528B4892400B1D3A7 /* Personal.swift */; };
+		C3B278E828B4893300B1D3A7 /* SplitBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B278E728B4893300B1D3A7 /* SplitBill.swift */; };
+		C3B278EA28B48D0F00B1D3A7 /* CategorySheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B278E928B48D0F00B1D3A7 /* CategorySheetView.swift */; };
+		C3B278EC28B5F7C300B1D3A7 /* FriendSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B278EB28B5F7C300B1D3A7 /* FriendSheetView.swift */; };
+		C3B2793628B6552400B1D3A7 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B2793528B6552400B1D3A7 /* TripsView.swift */; };
+		C3B2793828B6553A00B1D3A7 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B2793728B6553A00B1D3A7 /* HistoryView.swift */; };
+		C3B2793A28B65AEE00B1D3A7 /* MyTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B2793928B65AEE00B1D3A7 /* MyTripView.swift */; };
+		C3B2794028B681D100B1D3A7 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B2793F28B681D100B1D3A7 /* NotificationView.swift */; };
+		C3B2794528B68E1E00B1D3A7 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B2794428B68E1E00B1D3A7 /* OnboardView.swift */; };
+		C3DB69FE28A905AA00156C25 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB69FD28A905AA00156C25 /* SheetView.swift */; };
+		C3DB6A1A28ADFB9700156C25 /* HomepageNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB6A1928ADFB9700156C25 /* HomepageNewView.swift */; };
+		C3DB6A1C28AE144800156C25 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB6A1B28AE144800156C25 /* OverviewView.swift */; };
+		C3DB6A1E28AE190F00156C25 /* CardviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB6A1D28AE190F00156C25 /* CardviewView.swift */; };
+		C3DB6A2228AE3C8E00156C25 /* TestAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB6A2128AE3C8E00156C25 /* TestAnimation.swift */; };
+		C3DB6A2428B0D05900156C25 /* PersonalExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB6A2328B0D05800156C25 /* PersonalExpenseView.swift */; };
+		C3E62DE128A491A500DE438C /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E62DE028A491A500DE438C /* TabBarView.swift */; };
+		C3E62DE428A661CD00DE438C /* PlanTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E62DE328A661CD00DE438C /* PlanTripView.swift */; };
+		C3F4F0E128A22C29000D7AC0 /* Travoila_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F4F0E028A22C29000D7AC0 /* Travoila_2_0App.swift */; };
+		C3F4F0E328A22C29000D7AC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F4F0E228A22C29000D7AC0 /* ContentView.swift */; };
+		C3F4F0E828A22C2B000D7AC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F0E728A22C2B000D7AC0 /* Preview Assets.xcassets */; };
+		C3F4F0F028A230F0000D7AC0 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F4F0EF28A230F0000D7AC0 /* SignInView.swift */; };
+		C3F4F0F228A231DB000D7AC0 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F4F0F128A231DB000D7AC0 /* SignInButton.swift */; };
+		C3F4F0F428A2B7B3000D7AC0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F4F0F328A2B7B3000D7AC0 /* ProfileView.swift */; };
+		C3F4F11028A3AFF0000D7AC0 /* SegmentedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F4F10F28A3AFF0000D7AC0 /* SegmentedTabView.swift */; };
+		C3F4F12528A3CEA2000D7AC0 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F11228A3CEA2000D7AC0 /* Poppins-ExtraLight.ttf */; };
+		C3F4F12928A3CEA2000D7AC0 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F11628A3CEA2000D7AC0 /* Poppins-Light.ttf */; };
+		C3F4F12A28A3CEA2000D7AC0 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F11728A3CEA2000D7AC0 /* Poppins-Medium.ttf */; };
+		C3F4F12D28A3CEA2000D7AC0 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F11A28A3CEA2000D7AC0 /* Poppins-ExtraBold.ttf */; };
+		C3F4F13228A3CEA2000D7AC0 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F11F28A3CEA2000D7AC0 /* Poppins-Bold.ttf */; };
+		C3F4F13328A3CEA2000D7AC0 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F12028A3CEA2000D7AC0 /* Poppins-Black.ttf */; };
+		C3F4F13428A3CEA2000D7AC0 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F12128A3CEA2000D7AC0 /* Poppins-Thin.ttf */; };
+		C3F4F13528A3CEA2000D7AC0 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F12228A3CEA2000D7AC0 /* Poppins-SemiBold.ttf */; };
+		C3F4F13628A3CEA2000D7AC0 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F12328A3CEA2000D7AC0 /* Poppins-Italic.ttf */; };
+		C3F4F13828A3D0B2000D7AC0 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F13A28A3D0B2000D7AC0 /* Poppins-Regular.ttf */; };
+		C3F4F13D28A3F68A000D7AC0 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F4F13C28A3F68A000D7AC0 /* HomepageView.swift */; };
+		C3F4F13F28A40678000D7AC0 /* SegmentedHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F4F13E28A40678000D7AC0 /* SegmentedHomeView.swift */; };
+		C3F4F14828A41747000D7AC0 /* TripCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F4F14728A41747000D7AC0 /* TripCarousel.swift */; };
+		C3F4F14C28A41C25000D7AC0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F4F14B28A41C24000D7AC0 /* Model.swift */; };
+		C3F4F14E28A420DD000D7AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F4F14D28A420DD000D7AC0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B82764E128B69DDD008962AC /* Mate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mate.swift; sourceTree = "<group>"; };
+		B864F92F28B697A500FCA265 /* Scene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene1.swift; sourceTree = "<group>"; };
+		B864F93128B69C5E00FCA265 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		C3B278E528B4892400B1D3A7 /* Personal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal.swift; sourceTree = "<group>"; };
+		C3B278E728B4893300B1D3A7 /* SplitBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBill.swift; sourceTree = "<group>"; };
+		C3B278E928B48D0F00B1D3A7 /* CategorySheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySheetView.swift; sourceTree = "<group>"; };
+		C3B278EB28B5F7C300B1D3A7 /* FriendSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendSheetView.swift; sourceTree = "<group>"; };
+		C3B2793528B6552400B1D3A7 /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		C3B2793728B6553A00B1D3A7 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		C3B2793928B65AEE00B1D3A7 /* MyTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTripView.swift; sourceTree = "<group>"; };
+		C3B2793F28B681D100B1D3A7 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C3B2794428B68E1E00B1D3A7 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		C3DB69FD28A905AA00156C25 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		C3DB6A1928ADFB9700156C25 /* HomepageNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageNewView.swift; sourceTree = "<group>"; };
+		C3DB6A1B28AE144800156C25 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		C3DB6A1D28AE190F00156C25 /* CardviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardviewView.swift; sourceTree = "<group>"; };
+		C3DB6A2128AE3C8E00156C25 /* TestAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimation.swift; sourceTree = "<group>"; };
+		C3DB6A2328B0D05800156C25 /* PersonalExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalExpenseView.swift; sourceTree = "<group>"; };
+		C3E62DE028A491A500DE438C /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		C3E62DE328A661CD00DE438C /* PlanTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTripView.swift; sourceTree = "<group>"; };
+		C3F4F0DD28A22C29000D7AC0 /* Travoila 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travoila 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F4F0E028A22C29000D7AC0 /* Travoila_2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travoila_2_0App.swift; sourceTree = "<group>"; };
+		C3F4F0E228A22C29000D7AC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3F4F0E728A22C2B000D7AC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3F4F0EF28A230F0000D7AC0 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		C3F4F0F128A231DB000D7AC0 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		C3F4F0F328A2B7B3000D7AC0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C3F4F10F28A3AFF0000D7AC0 /* SegmentedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedTabView.swift; sourceTree = "<group>"; };
+		C3F4F11228A3CEA2000D7AC0 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C3F4F11628A3CEA2000D7AC0 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		C3F4F11728A3CEA2000D7AC0 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		C3F4F11A28A3CEA2000D7AC0 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C3F4F11F28A3CEA2000D7AC0 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		C3F4F12028A3CEA2000D7AC0 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		C3F4F12128A3CEA2000D7AC0 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		C3F4F12228A3CEA2000D7AC0 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		C3F4F12328A3CEA2000D7AC0 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		C3F4F13928A3D0B2000D7AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C3F4F13B28A3D2E8000D7AC0 /* Travoila-2-0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Travoila-2-0-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C3F4F13C28A3F68A000D7AC0 /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
+		C3F4F13E28A40678000D7AC0 /* SegmentedHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedHomeView.swift; sourceTree = "<group>"; };
+		C3F4F14728A41747000D7AC0 /* TripCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCarousel.swift; sourceTree = "<group>"; };
+		C3F4F14B28A41C24000D7AC0 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C3F4F14D28A420DD000D7AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3F4F0DA28A22C29000D7AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33D408A28B326F400873501 /* Personal Expense */ = {
+			isa = PBXGroup;
+			children = (
+				C3DB6A2328B0D05800156C25 /* PersonalExpenseView.swift */,
+				C3B278E528B4892400B1D3A7 /* Personal.swift */,
+				C3B278E728B4893300B1D3A7 /* SplitBill.swift */,
+				C3B278E928B48D0F00B1D3A7 /* CategorySheetView.swift */,
+				C3B278EB28B5F7C300B1D3A7 /* FriendSheetView.swift */,
+			);
+			path = "Personal Expense";
+			sourceTree = "<group>";
+		};
+		C3B2793B28B681AF00B1D3A7 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2793F28B681D100B1D3A7 /* NotificationView.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		C3B2794328B68E0B00B1D3A7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2794428B68E1E00B1D3A7 /* OnboardView.swift */,
+				B864F92F28B697A500FCA265 /* Scene1.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C3E62DDF28A4919500DE438C /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				C3E62DE028A491A500DE438C /* TabBarView.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		C3E62DE228A661BC00DE438C /* Plan Trip */ = {
+			isa = PBXGroup;
+			children = (
+				C3E62DE328A661CD00DE438C /* PlanTripView.swift */,
+				B864F93128B69C5E00FCA265 /* Budget.swift */,
+				B82764E128B69DDD008962AC /* Mate.swift */,
+				C3DB69FD28A905AA00156C25 /* SheetView.swift */,
+			);
+			path = "Plan Trip";
+			sourceTree = "<group>";
+		};
+		C3F4F0D428A22C29000D7AC0 = {
+			isa = PBXGroup;
+			children = (
+				C3F4F11128A3CEA2000D7AC0 /* Poppins */,
+				C3F4F0DF28A22C29000D7AC0 /* Travoila 2.0 */,
+				C3F4F0DE28A22C29000D7AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3F4F0DE28A22C29000D7AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F4F0DD28A22C29000D7AC0 /* Travoila 2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3F4F0DF28A22C29000D7AC0 /* Travoila 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				C3F4F13B28A3D2E8000D7AC0 /* Travoila-2-0-Info.plist */,
+				C3F4F0EE28A230E2000D7AC0 /* View */,
+				C3F4F0E028A22C29000D7AC0 /* Travoila_2_0App.swift */,
+				C3F4F0E228A22C29000D7AC0 /* ContentView.swift */,
+				C3F4F14D28A420DD000D7AC0 /* Assets.xcassets */,
+				C3F4F0E628A22C2B000D7AC0 /* Preview Content */,
+			);
+			path = "Travoila 2.0";
+			sourceTree = "<group>";
+		};
+		C3F4F0E628A22C2B000D7AC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C3F4F0E728A22C2B000D7AC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3F4F0EE28A230E2000D7AC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2794328B68E0B00B1D3A7 /* Onboarding */,
+				C3B2793B28B681AF00B1D3A7 /* Notification */,
+				C3E62DE228A661BC00DE438C /* Plan Trip */,
+				C3E62DDF28A4919500DE438C /* Tab Bar */,
+				C3F4F14328A4114D000D7AC0 /* Homepage */,
+				C3F4F14228A41140000D7AC0 /* Profile */,
+				C3F4F14028A41118000D7AC0 /* SignIn */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3F4F11128A3CEA2000D7AC0 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				C3F4F11228A3CEA2000D7AC0 /* Poppins-ExtraLight.ttf */,
+				C3F4F11628A3CEA2000D7AC0 /* Poppins-Light.ttf */,
+				C3F4F11728A3CEA2000D7AC0 /* Poppins-Medium.ttf */,
+				C3F4F11A28A3CEA2000D7AC0 /* Poppins-ExtraBold.ttf */,
+				C3F4F13A28A3D0B2000D7AC0 /* Poppins-Regular.ttf */,
+				C3F4F11F28A3CEA2000D7AC0 /* Poppins-Bold.ttf */,
+				C3F4F12028A3CEA2000D7AC0 /* Poppins-Black.ttf */,
+				C3F4F12128A3CEA2000D7AC0 /* Poppins-Thin.ttf */,
+				C3F4F12228A3CEA2000D7AC0 /* Poppins-SemiBold.ttf */,
+				C3F4F12328A3CEA2000D7AC0 /* Poppins-Italic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		C3F4F14028A41118000D7AC0 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				C3F4F0EF28A230F0000D7AC0 /* SignInView.swift */,
+				C3F4F0F128A231DB000D7AC0 /* SignInButton.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		C3F4F14228A41140000D7AC0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C3F4F0F328A2B7B3000D7AC0 /* ProfileView.swift */,
+				C3F4F10F28A3AFF0000D7AC0 /* SegmentedTabView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C3F4F14328A4114D000D7AC0 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				C33D408A28B326F400873501 /* Personal Expense */,
+				C3F4F14428A41504000D7AC0 /* Trip */,
+				C3F4F13C28A3F68A000D7AC0 /* HomepageView.swift */,
+				C3DB6A2128AE3C8E00156C25 /* TestAnimation.swift */,
+				C3DB6A1928ADFB9700156C25 /* HomepageNewView.swift */,
+				C3DB6A1B28AE144800156C25 /* OverviewView.swift */,
+				C3DB6A1D28AE190F00156C25 /* CardviewView.swift */,
+				C3F4F13E28A40678000D7AC0 /* SegmentedHomeView.swift */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		C3F4F14428A41504000D7AC0 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				C3F4F14B28A41C24000D7AC0 /* Model.swift */,
+				C3F4F14728A41747000D7AC0 /* TripCarousel.swift */,
+				C3B2793528B6552400B1D3A7 /* TripsView.swift */,
+				C3B2793728B6553A00B1D3A7 /* HistoryView.swift */,
+				C3B2793928B65AEE00B1D3A7 /* MyTripView.swift */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3F4F0DC28A22C29000D7AC0 /* Travoila 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F4F0EB28A22C2B000D7AC0 /* Build configuration list for PBXNativeTarget "Travoila 2.0" */;
+			buildPhases = (
+				C3F4F0D928A22C29000D7AC0 /* Sources */,
+				C3F4F0DA28A22C29000D7AC0 /* Frameworks */,
+				C3F4F0DB28A22C29000D7AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Travoila 2.0";
+			productName = "Travoila 2.0";
+			productReference = C3F4F0DD28A22C29000D7AC0 /* Travoila 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3F4F0D528A22C29000D7AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C3F4F0DC28A22C29000D7AC0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C3F4F0D828A22C29000D7AC0 /* Build configuration list for PBXProject "Travoila 2.0" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3F4F0D428A22C29000D7AC0;
+			productRefGroup = C3F4F0DE28A22C29000D7AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3F4F0DC28A22C29000D7AC0 /* Travoila 2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3F4F0DB28A22C29000D7AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F4F12928A3CEA2000D7AC0 /* Poppins-Light.ttf in Resources */,
+				C3F4F13328A3CEA2000D7AC0 /* Poppins-Black.ttf in Resources */,
+				C3F4F13428A3CEA2000D7AC0 /* Poppins-Thin.ttf in Resources */,
+				C3F4F12528A3CEA2000D7AC0 /* Poppins-ExtraLight.ttf in Resources */,
+				C3F4F13528A3CEA2000D7AC0 /* Poppins-SemiBold.ttf in Resources */,
+				C3F4F13228A3CEA2000D7AC0 /* Poppins-Bold.ttf in Resources */,
+				C3F4F13828A3D0B2000D7AC0 /* Poppins-Regular.ttf in Resources */,
+				C3F4F12D28A3CEA2000D7AC0 /* Poppins-ExtraBold.ttf in Resources */,
+				C3F4F12A28A3CEA2000D7AC0 /* Poppins-Medium.ttf in Resources */,
+				C3F4F0E828A22C2B000D7AC0 /* Preview Assets.xcassets in Resources */,
+				C3F4F14E28A420DD000D7AC0 /* Assets.xcassets in Resources */,
+				C3F4F13628A3CEA2000D7AC0 /* Poppins-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3F4F0D928A22C29000D7AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F4F0E328A22C29000D7AC0 /* ContentView.swift in Sources */,
+				C3B2793828B6553A00B1D3A7 /* HistoryView.swift in Sources */,
+				C3B278EA28B48D0F00B1D3A7 /* CategorySheetView.swift in Sources */,
+				C3DB6A2228AE3C8E00156C25 /* TestAnimation.swift in Sources */,
+				C3E62DE128A491A500DE438C /* TabBarView.swift in Sources */,
+				C3E62DE428A661CD00DE438C /* PlanTripView.swift in Sources */,
+				B864F93028B697A500FCA265 /* Scene1.swift in Sources */,
+				C3F4F0F228A231DB000D7AC0 /* SignInButton.swift in Sources */,
+				C3DB6A2428B0D05900156C25 /* PersonalExpenseView.swift in Sources */,
+				C3B2794028B681D100B1D3A7 /* NotificationView.swift in Sources */,
+				C3F4F13F28A40678000D7AC0 /* SegmentedHomeView.swift in Sources */,
+				C3B2794528B68E1E00B1D3A7 /* OnboardView.swift in Sources */,
+				C3DB69FE28A905AA00156C25 /* SheetView.swift in Sources */,
+				C3F4F14828A41747000D7AC0 /* TripCarousel.swift in Sources */,
+				B82764E228B69DDD008962AC /* Mate.swift in Sources */,
+				C3B278EC28B5F7C300B1D3A7 /* FriendSheetView.swift in Sources */,
+				C3DB6A1A28ADFB9700156C25 /* HomepageNewView.swift in Sources */,
+				C3F4F0F428A2B7B3000D7AC0 /* ProfileView.swift in Sources */,
+				C3F4F14C28A41C25000D7AC0 /* Model.swift in Sources */,
+				C3F4F11028A3AFF0000D7AC0 /* SegmentedTabView.swift in Sources */,
+				B864F93228B69C5E00FCA265 /* Budget.swift in Sources */,
+				C3F4F0E128A22C29000D7AC0 /* Travoila_2_0App.swift in Sources */,
+				C3F4F13D28A3F68A000D7AC0 /* HomepageView.swift in Sources */,
+				C3DB6A1E28AE190F00156C25 /* CardviewView.swift in Sources */,
+				C3B2793628B6552400B1D3A7 /* TripsView.swift in Sources */,
+				C3B278E628B4892400B1D3A7 /* Personal.swift in Sources */,
+				C3B278E828B4893300B1D3A7 /* SplitBill.swift in Sources */,
+				C3DB6A1C28AE144800156C25 /* OverviewView.swift in Sources */,
+				C3F4F0F028A230F0000D7AC0 /* SignInView.swift in Sources */,
+				C3B2793A28B65AEE00B1D3A7 /* MyTripView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3F4F13A28A3D0B2000D7AC0 /* Poppins-Regular.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F4F13928A3D0B2000D7AC0 /* Base */,
+			);
+			name = "Poppins-Regular.ttf";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3F4F0E928A22C2B000D7AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3F4F0EA28A22C2B000D7AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3F4F0EC28A22C2B000D7AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travoila 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 7F74939BUC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Travoila-2-0-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Travoila-2.0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3F4F0ED28A22C2B000D7AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travoila 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 7F74939BUC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Travoila-2-0-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Travoila-2.0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3F4F0D828A22C29000D7AC0 /* Build configuration list for PBXProject "Travoila 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F4F0E928A22C2B000D7AC0 /* Debug */,
+				C3F4F0EA28A22C2B000D7AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F4F0EB28A22C2B000D7AC0 /* Build configuration list for PBXNativeTarget "Travoila 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F4F0EC28A22C2B000D7AC0 /* Debug */,
+				C3F4F0ED28A22C2B000D7AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3F4F0D528A22C29000D7AC0 /* Project object */;
+}
